@@ -264,3 +264,66 @@ hr {
     color: var(--darkpink);
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    /* Header adjustments */
+    .header {
+        padding: 10px;
+        height: auto; /* Adjust height */
+    }
+
+    /* Navigation */
+    ul {
+        display: flex;
+        flex-direction: column; /* Stack the navigation buttons */
+        padding: 0;
+    }
+
+    #nav {
+        margin: 10px 0; /* Add spacing between buttons */
+    }
+
+    button {
+        width: 100%; /* Make buttons full width */
+        margin: 5px 0; /* Add spacing */
+    }
+
+    /* Adjusting the main sections */
+    .info {
+        left: 0;
+        width: 95%; /* Full width with some padding */
+        top: 10px;
+        margin: 0 auto; /* Center the info section */
+    }
+
+    .about-content {
+        flex-direction: column; /* Stack text and image */
+        align-items: center; /* Center-align items */
+    }
+
+    .about-image {
+        margin: 20px 0 0 0; /* Add margin at the top */
+    }
+
+    .about-image img {
+        width: 80%; /* Resize the image for smaller screens */
+    }
+
+    /* Project section */
+    .projects {
+        left: 0;
+        width: 95%; /* Make project section full width */
+        margin: 0 auto; /* Center projects section */
+        padding: 20px;
+        box-shadow: none; /* Simplify design for mobile */
+    }
+
+    .project-item {
+        width: 90%; /* Adjust width */
+        max-width: none; /* Remove max-width */
+    }
+
+    .project-heading {
+        font-size: 2em; /* Reduce heading size */
+    }
+}
