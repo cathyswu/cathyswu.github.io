@@ -4,7 +4,7 @@
     --lightpink: #ffcad4;
     --pink: #f4acb7;
     --darkpink: #9d8189;
-    --black: black;
+    --black: #333; 
 }
 
 * {
@@ -181,25 +181,23 @@ a:hover {
 }
 
 .project-item {
-    background-color: #ffffff;
-    border: 1px solid #d9d9d9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px auto;
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px;
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-item h3 {
     font-size: 1.8em;
-    color: #4e4e4e;
+    color: black;
     margin-bottom: 10px;
 }
 
 .project-item p {
     font-size: 1.2em;
-    color: #7a7a7a;
+    color: black;
 }
 
 .project-item a {
@@ -213,13 +211,11 @@ a:hover {
     color: #d35d5d;
 }
 
-/* Optional - Add some hover effect */
 .project-item:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .project-item {
         width: 90%;
@@ -242,4 +238,29 @@ a:hover {
     font-family: "Karla", sans-serif;
     font-size: 50px;
     text-align: center;
+}
+
+hr {
+    border: none; 
+    height: 3px; 
+    background-color: var(--darkpink); 
+    margin: 20px 0; 
+    border-radius: 25px;
+}
+
+.personal-website-image {
+    width: 425px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--darkpink);
+    
+}
+
+.name p {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    color: var(--darkpink);
+    font-weight: bold;
 }
