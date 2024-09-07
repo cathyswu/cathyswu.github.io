@@ -172,6 +172,7 @@ a:hover {
     position: relative;
     left: 150px;
     width: 80%;
+    margin-bottom: 20px;
 }
 
 .projects h2 {
@@ -253,7 +254,13 @@ hr {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--darkpink);
+}
 
+.chicken-kitchen-image {
+    width: 425px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--darkpink);
 }
 
 .name p {
