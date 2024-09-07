@@ -4,7 +4,7 @@
     --lightpink: #ffcad4;
     --pink: #f4acb7;
     --darkpink: #9d8189;
-    --black: #333; 
+    --black: #333;
 }
 
 * {
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .about-image img {
-    width: 250px; 
+    width: 250px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--darkpink);
@@ -241,19 +241,19 @@ a:hover {
 }
 
 hr {
-    border: none; 
-    height: 3px; 
-    background-color: var(--darkpink); 
-    margin: 20px 0; 
+    border: none;
+    height: 3px;
+    background-color: var(--darkpink);
+    margin: 20px 0;
     border-radius: 25px;
 }
 
 .personal-website-image {
-    width: 425px; 
+    width: 425px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--darkpink);
-    
+
 }
 
 .name p {
